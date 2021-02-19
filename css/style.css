@@ -225,7 +225,7 @@ nav{
 
 .contenitore-customers img{
  height: 120px;
- width: 200px;
+ width: 100%;
 }
 
 .contenitore-customers li{
@@ -387,8 +387,6 @@ ul.scala-deploy{
   color: rgb(84, 84, 84);
   padding-bottom: 10px;
 }
-
-/* 12 Regions */
 
 /* Love DigitalOcean */
 
