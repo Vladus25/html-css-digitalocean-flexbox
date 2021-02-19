@@ -18,9 +18,13 @@ ul{
   list-style-type: none;
 }
 
-.centratura{
+.container{
   width: 80%;
   margin: 0 auto;
+}
+
+.sfondo-grey{
+  background-color: #f3f5f9;
 }
 
 /* Header */
@@ -92,7 +96,7 @@ nav{
 }
 
 .contenitore-titolo{
-  width: 35%;
+  flex-basis: 35%;
   margin-top: 50px;
 }
 
@@ -114,7 +118,7 @@ nav{
   border-radius: 5px;
   text-align: center;
   margin: 50px 0 50px 0;
-  width: 30%;
+  flex-basis: 30%;
 }
 
 .contenitore-deploy h2{
@@ -205,12 +209,14 @@ nav{
 .contenitore-customers{
   background-color: #f3f5f9;
   text-align: center;
+
 }
 
 .contenitore-customers ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  flex-basis: 150px;
 }
 
 .contenitore-customers h3{
@@ -218,7 +224,13 @@ nav{
 }
 
 .contenitore-customers img{
+ height: 120px;
+ width: 200px;
+}
+
+.contenitore-customers li{
   height: 120px;
+  flex-basis: 200px;
 }
 
 .contenitore-customers h4{
@@ -227,9 +239,154 @@ nav{
 
 /* Scale seamlessly */
 
+#scale{
+  margin: 50px 0;
+}
+
+.centratura{
+  text-align: center;
+}
+
+#scale h2{
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(0, 29, 68, 1);
+  padding-bottom: 10px;
+}
+
+.font-misure{
+  font-size: 22px;
+  color: rgb(84, 84, 84);
+  padding-bottom: 40px;
+}
+
+.contenitore-seamlessly{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
+
+}
+
+.dimensione-seamlessly{
+  flex-basis: 33%;
+}
+
+.dimensione-link{
+  flex-basis: 20%;
+}
+
+.pad-sez-scale{
+ margin-right: 30%;
+}
+
+ul.scala-deploy{
+  border-left: 2px solid;
+  border-color: rgb(84, 84, 84);
+}
+
+.scala-deploy li{
+  list-style: none;
+  font-size: 18px;
+  padding: 5px 0 10px 5px;
+  color: rgb(84, 84, 84);
+}
+
+.pad-sez-scale img, .pad-sez-scale h4, .pad-sez-scale p{
+  padding: 7px 0;
+}
+
+.pad-sez-scale p{
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+}
+
+.pad-sez-scale h4{
+  font-size: 22px;
+  color: rgba(0, 29, 68, 1);
+}
 /* Designed for developers */
 
+.contenitore-designed{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenitore-designed i{
+  font-size: 40px;
+  color: rgba(0, 29, 68, 1);
+}
+
+.contenitore-designed .fa-chevron-left{
+  margin-left: 5%;
+}
+
+.contenitore-designed .fa-chevron-right{
+  margin-right: 5%;
+}
+
+
+.text-fix h2{
+  padding-top: 50px;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(0, 29, 68, 1);
+}
+
+.text-fix p{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(84, 84, 84);
+  padding: 30px 0;
+}
+
+.cerchi{
+  color: rgba(0, 95, 222, 1);
+  padding-bottom: 50px;
+}
+
+.text-fix h4{
+  color: rgba(0, 29, 68, 1);
+  margin: 20px 0;
+}
+
+
 /* The features your business needs */
+
+#margine-testo{
+  font-size: 35px;
+  font-weight: bold;
+  margin: 50px 0 40px 0;
+  text-align: center;
+  color: rgba(0, 29, 68, 1);
+}
+
+.contenitore-features{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.dimensione-features{
+  flex-basis: 25%;
+}
+
+.dimensione-features h4{
+  color: rgba(0, 29, 68, 1);
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.dimensione-features img{
+  margin-top: 15px;
+}
+
+.dimensione-features p{
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+  padding-bottom: 10px;
+}
 
 /* 12 Regions */
 
