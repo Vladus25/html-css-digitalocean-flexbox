@@ -215,7 +215,6 @@ nav{
 .contenitore-customers ul {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   flex-basis: 150px;
 }
 
@@ -318,6 +317,10 @@ ul.scala-deploy{
   color: rgba(0, 29, 68, 1);
 }
 
+.img-dimensione img{
+  max-width: 100%;
+}
+
 .contenitore-designed .fa-chevron-left{
   margin-left: 5%;
 }
@@ -390,11 +393,137 @@ ul.scala-deploy{
 
 /* Love DigitalOcean */
 
+.contenitore-love-ocean{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.contenitore-love-ocean i{
+  font-size: 40px;
+  color: rgba(0, 29, 68, 1);
+}
+
+.contenitore-love-ocean .fa-chevron-left{
+  margin-left: 5%;
+}
+
+.contenitore-love-ocean .fa-chevron-right{
+  margin-right: 5%;
+}
+
+.contenitore-rockerbox{
+  background-color: white;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.contenitore-rockerbox img{
+  margin: 60px 0 25px 0;
+}
+
+.contenitore-rockerbox p{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(84, 84, 84);
+}
+
+.contenitore-rockerbox h5{
+  font-size: 16px;
+  color: rgba(0, 29, 68, 1);
+  margin: 10px 0;
+}
+
+.contenitore-rockerbox h6{
+  margin-top: 50px;
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+.cerchi-2{
+  padding-top: 20px;
+}
+
 /* Get Started now */
+
+.back-blue-gradient{
+  background: linear-gradient(to bottom, #2285fd, #031c4e);
+}
+
+.contenitore-started h2{
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 50px 0 30px 0;
+}
+
+.contenitore-started button{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(0, 125, 255);
+  font-weight: bold;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+}
 
 /* Footer */
 
-footer{
-  width: 80%;
-  margin: 0 auto;
+.back-blue-scuro{
+  background-color: rgb(0, 13, 80);
+}
+
+.contenitore-footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 0;
+}
+
+.contenitore-footer ul {
+  list-style-type: none;
+}
+
+.lista-footer li h4{
+  color: white;
+  font-weight: bold;
+
+}
+
+.lista-footer li a{
+  color: rgb(170, 170, 170);
+  font-size: 16px;
+}
+
+.lista-footer li{
+  margin: 10px 0;
+}
+
+.lista-footer li a:hover{
+  color: white;
+}
+
+.social-network{
+  font-size: 25px;
+}
+
+.social-network i{
+  padding: 10px 5px;
+  color: rgb(170, 170, 170);
+}
+
+.social-network i:hover{
+  color: white;
+}
+
+#footer-tekst{
+  font-size: 16px;
+  color: rgb(170, 170, 170);
+  margin: 5px 0;
+}
+
+#footer-tekst-2{
+  color: rgb(131, 131, 131);
+  margin: 5px 0;
 }

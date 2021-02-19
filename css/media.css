@@ -7,7 +7,7 @@
   /* Header */
 
   header  {
-    width: 95%;
+    width: 100%;
   }
 
   /* Nav */
@@ -17,10 +17,11 @@
 
   .dropdown{
     display: none;
+    background-color: white;
   }
 
   .dropdown li{
-    padding: 10px 0;
+    padding: 10px 10px;
   }
 
   .dropdown a{
@@ -32,7 +33,7 @@
     display: block;
     position: absolute;
     left: 0;
-    top:90px;
+    top:70px;
     width: 100%;
   }
 
@@ -42,23 +43,40 @@
 
   /* Menu */
 
+  .container{
+    width: 95%
+  }
+
   /* The simplest cloud for developer */
 
-  /* Customers */
+  .contenitore-titolo{
+    flex-basis: 100%;
+  }
 
-  /* Scale seamlessly */
+  .contenitore-deploy{
+    flex-basis: 70%;
+  }
 
   /* Designed for developers */
 
-  /* The features your business needs */
-
-  /* 12 Regions */
-
-  /* Love DigitalOcean */
-
-  /* Get Started now */
+  .img-dimensione img{
+    max-width: 80%;
+  }
 
   /* Footer */
+
+  .dimensione-footer-logo{
+    width: 100%;
+  }
+
+  .dimensione-footer{
+    width: 50%;
+  }
+
+  .contenitore-footer{
+    flex-wrap: wrap;
+
+  }
 
 }
 
@@ -66,27 +84,92 @@
 
 @media screen and (max-width: 768px){
 
-  /* Header */
-
-  /* Nav */
+  .container{
+    width: 95%
+  }
 
   /* Menu */
 
   /* The simplest cloud for developer */
 
+  .flex-1{
+    flex-wrap: wrap;
+  }
+
+  .contenitore-titolo{
+    flex-basis: 100%;
+  }
+
+  .contenitore-deploy{
+    flex-basis: 100%;
+  }
+
   /* Customers */
+
+  .contenitore-customers ul {
+    flex-wrap: wrap;
+  }
+
+  .contenitore-customers img{
+   height: 140px;
+   width: 100%;
+  }
+
+  .contenitore-customers li{
+    height: 140px;
+    flex-basis: 50%;
+  }
 
   /* Scale seamlessly */
 
+  .dimensione-seamlessly{
+    flex-basis: 100%;
+  }
+
+  .dimensione-link{
+    flex-basis: 100%;
+  }
+
   /* Designed for developers */
+
+  .img-dimensione img{
+    max-width: 70%;
+  }
+
+  .contenitore-designed .fa-angle-left, .contenitore-designed .fa-angle-right{
+    display: none;
+  }
 
   /* The features your business needs */
 
-  /* 12 Regions */
+  .contenitore-features{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
 
+  .dimensione-features{
+    flex-basis: 100%;
+  }
   /* Love DigitalOcean */
 
-  /* Get Started now */
+  .contenitore-love-ocean .fa-angle-left, .contenitore-love-ocean .fa-angle-right{
+    display: none;
+  }
+
+  .contenitore-rockerbox{
+    width: 80%;
+  }
+
 
   /* Footer */
+
+  .contenitore-footer{
+    flex-wrap: wrap;
+  }
+
+  .dimensione-footer{
+    width: 100%;
+  }
 }
