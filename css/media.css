@@ -1,0 +1,92 @@
+/* Media per responsive */
+
+/* Media per MD */
+
+@media screen and (max-width:991px) {
+
+  /* Header */
+
+  header  {
+    width: 95%;
+  }
+
+  /* Nav */
+  .dropdown-bars {
+    display: block;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+  .dropdown li{
+    padding: 10px 0;
+  }
+
+  .dropdown a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown-bars:hover .dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+    top:90px;
+    width: 100%;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  /* Menu */
+
+  /* The simplest cloud for developer */
+
+  /* Customers */
+
+  /* Scale seamlessly */
+
+  /* Designed for developers */
+
+  /* The features your business needs */
+
+  /* 12 Regions */
+
+  /* Love DigitalOcean */
+
+  /* Get Started now */
+
+  /* Footer */
+
+}
+
+/* Media per XS */
+
+@media screen and (max-width:991px){
+
+  /* Header */
+
+  /* Nav */
+
+  /* Menu */
+
+  /* The simplest cloud for developer */
+
+  /* Customers */
+
+  /* Scale seamlessly */
+
+  /* Designed for developers */
+
+  /* The features your business needs */
+
+  /* 12 Regions */
+
+  /* Love DigitalOcean */
+
+  /* Get Started now */
+
+  /* Footer */
+}

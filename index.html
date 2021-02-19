@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>DigitalOcean-FlexBox</title>
   </head>
   <body>
@@ -15,7 +16,50 @@
     <header>
 
       <!-- Navigazione -->
-      <nav>
+      <nav class="centratura">
+
+        <div class="img-logo">
+          <img src="img/logo.png" alt="Logo">
+        </div>
+
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">Products<i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Community<i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="nav-bar">
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Support<i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="#">Login</a></li>
+            <li><a class="buttone-sign" href="#">Sign Up</a></li>
+          </ul>
+        </div>
+
+        <div class="dropdown-bars">
+          <i class="fas fa-bars"></i>
+
+          <!-- dropdown -->
+          <div class="dropdown">
+            <ul>
+              <li><a href="#">Products<i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Community<i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Support<i class="fas fa-chevron-down"></i></a></li>
+              <li><a href="#">Login</a></li>
+              <li><a class="buttone-sign" href="#">Sign Up</a></li>
+            </ul>
+          </div>
+        </div>
 
       </nav>
 
@@ -25,13 +69,66 @@
     <main>
 
       <!-- The simplest cloud for developer -->
-      <section>
+      <section id="sfondo-fish">
+        <div class="centratura jumbo-top">
+          <div class="flex-1">
 
+            <div class="contenitore-titolo">
+              <h1 id="titolo-principale">The simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            </div>
+
+            <div class="contenitore-deploy">
+              <h2>Deploy your app in seconds.</h2>
+              <a href="#"><h2>Get started now.</h2></a>
+              <form class="" action="index.html" method="post">
+                <div class="form-sign-in">
+                  <input type="text" name="" value="" placeholder="Email">
+                </div>
+
+                <div class="form-sign-in">
+                  <input type="text" name="" value="" placeholder="Password">
+                </div>
+              </form>
+              <a class="fix-account" href="#">Create your account</a>
+              <div class="google-login">
+                <a href="#"><img src="img/google-icon.png" alt="">Sign up with google</a>
+              </div>
+              <h6 class="licencia">By signing up you agree to the <a class="terms-service" href="#">Terms of service</a></h6>
+            </div>
+
+          </div>
+        </div>
       </section>
 
       <!-- Customers -->
-      <section>
+      <section class="contenitore-customers">
+        <div class="centratura">
+          <h3>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h3>
 
+          <ul>
+            <li>
+              <img src="img/docker.svg" alt="docker">
+            </li>
+            <li>
+              <img src="img/gitlab.svg" alt="gitlab">
+            </li>
+            <li>
+              <img src="img/slack.svg" alt="Slack">
+            </li>
+            <li>
+              <img  src="img/hashicorp.svg" alt="Hashicorp">
+            </li>
+            <li>
+              <img src="img/hashicorp.svg" alt="hashicorp">
+            </li>
+            <li>
+              <img src="img/splunklogo.svg" alt="Splunk">
+            </li>
+          </ul>
+
+          <a href="#"><h4>View customer stories &gt;</h4></a>
+        </div>
       </section>
 
       <!-- Scale seamlessly -->
